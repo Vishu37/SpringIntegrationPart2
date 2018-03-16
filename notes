@@ -1,0 +1,64 @@
+1- Spring Cloud Config
+		-- Server 
+		-- Config
+
+2- Spring cloud Netflix
+		-- Service Discovery/Registry
+		implementers - Eureka , Ribbon , Zuul , Hystrix
+		
+		Eureka:
+		EurekaRegistry
+		EurekaDBService
+		
+		microservices.io
+		microservices by martin fowler
+		
+		
+3		Authentication:
+		| who - ---- UserName + pwd 
+		|				-----------Method ---
+		|						   Inmemory 
+		|						   DB
+		|						   LDAP
+		|
+		Role Mapping
+		|
+		|
+		|
+		Authorization 
+		 Allowed ---Role- Resource
+		 Access Control List(ACL)
+		
+		Spring Security
+			1) Declarative (AOP)
+				WebApp/Standalone
+		
+		
+		Kafka (MOM-Message oriented ______)
+		
+		Installation:
+		1 )modify  config\server.properties 
+		log.dirs=C\\kafka_2.11-1.0.0\\logs
+		2) start zookeeper
+		C:\kafka_2.11-1.0.0>bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+		3) start kafka server
+		C:\kafka_2.11-1.0.0>bin\windows\kafka-server-start.bat config\server.properties
+		
+		Create Topics
+		
+		docker:
+		
+		image ------------- Container
+		(.class) -----------(Object)
+		
+		Docker hub will provide you images.
+		how to get it : 
+		1) docker pull imagename
+		2) docker run imagename:
+								checks 1) latest image locally
+										2) if not download it and then run it.
+		cmds:
+		docker ps = avaialble container
+		docker ps -a = stopped
+		
+		
